@@ -17,6 +17,7 @@
  - **Actividad 1**: [Proyecto de Intro a React](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeIntroAReact/mi-tarjeta)
  - **Actividad 2**: [Proyecto de Manejo de Estado](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeManejoDeEstado/app-manejo-estado)
  - **Actividad 3**: [Proyecto de Hooks useEffect y useMemo](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeHooksUseEffectYUseMemo/contador-tareas)
+ - **Actividad 4**: [Proyecto de Ciclo de Vida de Componentes](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeCicloDeVidaDeComponentes/explorador-espacial)
 
 
  ## 🚀 Proyectos
@@ -25,7 +26,7 @@
  ## 🛠️ Tecnologías Utilizadas
  
  - **Lenguajes de Programación**: JavaScript.
- - **Herramientas**: Git, Visual Studio Code, NodeJS, SQLite, Express, Boostrap, Vite.
+ - **Herramientas**: Git, Visual Studio Code, NodeJS, Vite, React.
  
  ## 📝 Notas
  
