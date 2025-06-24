@@ -16,6 +16,7 @@
  ### Módulo 6: Introducción a React
  - **Actividad 1**: [Proyecto de Intro a React](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeIntroAReact/mi-tarjeta)
  - **Actividad 2**: [Proyecto de Manejo de Estado](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeManejoDeEstado/app-manejo-estado)
+ - **Actividad 3**: [Proyecto de Hooks useEffect y useMemo](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeHooksUseEffectYUseMemo/contador-tareas)
 
 
  ## 🚀 Proyectos
