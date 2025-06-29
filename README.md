@@ -18,6 +18,7 @@
  - **Actividad 2**: [Proyecto de Manejo de Estado](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeManejoDeEstado/app-manejo-estado)
  - **Actividad 3**: [Proyecto de Hooks useEffect y useMemo](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeHooksUseEffectYUseMemo/contador-tareas)
  - **Actividad 4**: [Proyecto de Ciclo de Vida de Componentes](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeCicloDeVidaDeComponentes/explorador-espacial)
+ - **Actividad 5**: [Proyecto de Conditional Rendering y Components Composition](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoDeConditionalRenderingYComponentsComposition/adivina-el-numero)
 
 
  ## 🚀 Proyectos
