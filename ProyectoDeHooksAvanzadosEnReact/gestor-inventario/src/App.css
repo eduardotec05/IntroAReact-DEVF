@@ -1,0 +1,247 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.app-title {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Contenedor principal */
+.inventory-manager {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de búsqueda */
+.search-container {
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  padding: 0.8rem 1.2rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border 0.3s ease;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-input:focus {
+  border-color: #3498db;
+}
+
+/* Formulario de agregar producto */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.product-input {
+  flex: 1;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.product-input:focus {
+  border-color: #3498db;
+}
+
+.add-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+  background-color: #27ae60;
+  transform: translateY(-2px);
+}
+
+/* Botón vaciar inventario */
+.clear-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+/* Lista de productos */
+.list-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+.product-item:hover {
+  background-color: #f0f2f5;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.actions-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-button {
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  transform: scale(1.1);
+}
+
+.increment-button {
+  background-color: #3498db;
+}
+
+.increment-button:hover {
+  background-color: #2980b9;
+}
+
+.decrement-button {
+  background-color: #f39c12;
+}
+
+.decrement-button:hover {
+  background-color: #e67e22;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Mensaje cuando no hay productos */
+.empty-message {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+
+/* Efectos responsivos */
+@media (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+  }
+  
+  .product-input, .add-button {
+    width: 100%;
+  }
+  
+  .clear-button {
+    max-width: 100%;
+  }
+  
+  .product-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .actions-container {
+    align-self: flex-end;
+  }
+}
