@@ -24,12 +24,14 @@
 
 
  ## 🚀 Proyectos
+
+ - **Proyecto Final Intro a React**: [MiniX (Clon de Twitter)](https://github.com/eduardotec05/IntroAReact-DEVF/tree/main/ProyectoFinalIntroReact/miniX)
  
  
  ## 🛠️ Tecnologías Utilizadas
  
  - **Lenguajes de Programación**: JavaScript.
- - **Herramientas**: Git, Visual Studio Code, NodeJS, Vite, React.
+ - **Herramientas**: Git, Visual Studio Code, NodeJS, Vite, React, React Router, React Hooks, Tailwind CSS, Framer Motion.
  
  ## 📝 Notas
  
